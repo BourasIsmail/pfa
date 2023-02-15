@@ -26,21 +26,7 @@ import javax.persistence.EntityTransaction;
 public class CarRentingApplication {
 	
 	public static Logger logger = LoggerFactory.getLogger(CarRentingApplication.class);
-    // class attributes :
-    final CarService carService;
-    final UserService userService;
-    final NotificationService notificationService;
-    final BCryptPasswordEncoder pwEncoder;
-    final MidnightApplicationRefresh midAppRef;
 
-    // class constructor :
-    public CarRentingApplication(CarService carService, UserService userService, NotificationService notificationService, BCryptPasswordEncoder pwEncoder, MidnightApplicationRefresh midAppRef) {
-        this.carService = carService;
-        this.userService = userService;
-        this.notificationService = notificationService;
-        this.pwEncoder = pwEncoder;
-        this.midAppRef = midAppRef;
-    }
     
     @PostConstruct
     public void init() {
