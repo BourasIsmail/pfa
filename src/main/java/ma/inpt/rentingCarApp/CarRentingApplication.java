@@ -19,8 +19,7 @@ import java.time.LocalDate;
 import java.util.Arrays;
 
 import javax.annotation.PostConstruct;
-import javax.persistence.EntityManager;
-import javax.persistence.EntityTransaction;
+
 
 @SpringBootApplication
 public class CarRentingApplication {
