@@ -1,8 +1,9 @@
-package ma.inpt.rentingCarApp.DAO;
+package ma.emsi.rentingCarApp.DAO;
 
-import ma.inpt.rentingCarApp.entities.User;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
+
+import ma.emsi.rentingCarApp.entities.User;
 
 @Repository
 public interface UserRepository extends CrudRepository<User, Long> {

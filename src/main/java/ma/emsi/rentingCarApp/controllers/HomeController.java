@@ -1,4 +1,4 @@
-package ma.inpt.rentingCarApp.controllers;
+package ma.emsi.rentingCarApp.controllers;
 
 import java.util.ArrayList;
 import java.util.Collection;

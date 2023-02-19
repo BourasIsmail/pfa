@@ -1,15 +1,17 @@
-package ma.inpt.rentingCarApp.controllers;
+package ma.emsi.rentingCarApp.controllers;
 
 import java.util.List;
-import ma.inpt.rentingCarApp.entities.User;
-import ma.inpt.rentingCarApp.security.CurrentUserFinder;
+
+import ma.emsi.rentingCarApp.entities.User;
+import ma.emsi.rentingCarApp.security.CurrentUserFinder;
+import ma.emsi.rentingCarApp.services.UserService;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import ma.inpt.rentingCarApp.services.UserService;
 
 @Controller @RequestMapping(value = "/admin")
 public class AdminController {

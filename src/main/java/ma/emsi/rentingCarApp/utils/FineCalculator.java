@@ -1,8 +1,9 @@
-package ma.inpt.rentingCarApp.utils;
+package ma.emsi.rentingCarApp.utils;
 
-import ma.inpt.rentingCarApp.entities.Car;
-import ma.inpt.rentingCarApp.entities.User;
 import org.springframework.stereotype.Component;
+
+import ma.emsi.rentingCarApp.entities.Car;
+import ma.emsi.rentingCarApp.entities.User;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

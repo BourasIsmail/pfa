@@ -1,4 +1,4 @@
-package ma.inpt.rentingCarApp.security;
+package ma.emsi.rentingCarApp.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

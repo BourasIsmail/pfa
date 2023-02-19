@@ -1,11 +1,11 @@
-package ma.inpt.rentingCarApp.security;
+package ma.emsi.rentingCarApp.security;
 
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
-import ma.inpt.rentingCarApp.entities.User;
-import ma.inpt.rentingCarApp.services.UserService;
+import ma.emsi.rentingCarApp.entities.User;
+import ma.emsi.rentingCarApp.services.UserService;
 
 @Service
 public class CurrentUserFinder {

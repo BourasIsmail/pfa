@@ -1,4 +1,4 @@
-package ma.inpt.rentingCarApp.security;
+package ma.emsi.rentingCarApp.security;
 
 import javax.sql.DataSource;
 import org.springframework.context.annotation.Configuration;

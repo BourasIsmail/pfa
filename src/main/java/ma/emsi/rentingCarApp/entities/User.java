@@ -1,4 +1,4 @@
-package ma.inpt.rentingCarApp.entities;
+package ma.emsi.rentingCarApp.entities;
 
 
 import java.util.List;

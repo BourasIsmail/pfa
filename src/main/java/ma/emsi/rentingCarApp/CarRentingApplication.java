@@ -1,11 +1,11 @@
-package ma.inpt.rentingCarApp;
+package ma.emsi.rentingCarApp;
 
-import ma.inpt.rentingCarApp.entities.Car;
-import ma.inpt.rentingCarApp.entities.User;
-import ma.inpt.rentingCarApp.services.CarService;
-import ma.inpt.rentingCarApp.services.NotificationService;
-import ma.inpt.rentingCarApp.services.UserService;
-import ma.inpt.rentingCarApp.utils.MidnightApplicationRefresh;
+import ma.emsi.rentingCarApp.entities.Car;
+import ma.emsi.rentingCarApp.entities.User;
+import ma.emsi.rentingCarApp.services.CarService;
+import ma.emsi.rentingCarApp.services.NotificationService;
+import ma.emsi.rentingCarApp.services.UserService;
+import ma.emsi.rentingCarApp.utils.MidnightApplicationRefresh;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

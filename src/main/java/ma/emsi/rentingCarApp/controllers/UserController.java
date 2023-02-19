@@ -1,13 +1,14 @@
-package ma.inpt.rentingCarApp.controllers;
+package ma.emsi.rentingCarApp.controllers;
 
-import ma.inpt.rentingCarApp.entities.Car;
-import ma.inpt.rentingCarApp.entities.User;
-import ma.inpt.rentingCarApp.security.CurrentUserFinder;
-import ma.inpt.rentingCarApp.services.CarService;
-import ma.inpt.rentingCarApp.services.UserService;
-import ma.inpt.rentingCarApp.utils.DateTracker;
-import ma.inpt.rentingCarApp.utils.FineCalculator;
-import ma.inpt.rentingCarApp.utils.ListInStringConverter;
+import ma.emsi.rentingCarApp.entities.Car;
+import ma.emsi.rentingCarApp.entities.User;
+import ma.emsi.rentingCarApp.security.CurrentUserFinder;
+import ma.emsi.rentingCarApp.services.CarService;
+import ma.emsi.rentingCarApp.services.UserService;
+import ma.emsi.rentingCarApp.utils.DateTracker;
+import ma.emsi.rentingCarApp.utils.FineCalculator;
+import ma.emsi.rentingCarApp.utils.ListInStringConverter;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;

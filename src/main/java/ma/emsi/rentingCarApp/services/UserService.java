@@ -1,9 +1,11 @@
-package ma.inpt.rentingCarApp.services;
+package ma.emsi.rentingCarApp.services;
 
 import java.util.ArrayList;
 import java.util.List;
-import ma.inpt.rentingCarApp.DAO.UserRepository;
-import ma.inpt.rentingCarApp.entities.User;
+
+import ma.emsi.rentingCarApp.DAO.UserRepository;
+import ma.emsi.rentingCarApp.entities.User;
+
 import org.springframework.stereotype.Service;
 
 @Service

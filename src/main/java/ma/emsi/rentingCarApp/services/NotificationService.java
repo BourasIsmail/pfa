@@ -1,8 +1,10 @@
-package ma.inpt.rentingCarApp.services;
+package ma.emsi.rentingCarApp.services;
 
 import java.util.List;
-import ma.inpt.rentingCarApp.DAO.NotificationRepository;
-import ma.inpt.rentingCarApp.entities.Notification;
+
+import ma.emsi.rentingCarApp.DAO.NotificationRepository;
+import ma.emsi.rentingCarApp.entities.Notification;
+
 import org.springframework.stereotype.Service;
 
 @Service

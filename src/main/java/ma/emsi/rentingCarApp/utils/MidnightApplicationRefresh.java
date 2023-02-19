@@ -1,13 +1,15 @@
-package ma.inpt.rentingCarApp.utils;
+package ma.emsi.rentingCarApp.utils;
 
 import java.time.LocalDate;
-import ma.inpt.rentingCarApp.entities.Car;
-import ma.inpt.rentingCarApp.entities.Notification;
-import ma.inpt.rentingCarApp.entities.User;
+
 import org.springframework.stereotype.Component;
-import ma.inpt.rentingCarApp.services.CarService;
-import ma.inpt.rentingCarApp.services.NotificationService;
-import ma.inpt.rentingCarApp.services.UserService;
+
+import ma.emsi.rentingCarApp.entities.Car;
+import ma.emsi.rentingCarApp.entities.Notification;
+import ma.emsi.rentingCarApp.entities.User;
+import ma.emsi.rentingCarApp.services.CarService;
+import ma.emsi.rentingCarApp.services.NotificationService;
+import ma.emsi.rentingCarApp.services.UserService;
 
 @Component
 public class MidnightApplicationRefresh {

@@ -1,9 +1,10 @@
-package ma.inpt.rentingCarApp.utils;
+package ma.emsi.rentingCarApp.utils;
 
-import ma.inpt.rentingCarApp.entities.Car;
-import ma.inpt.rentingCarApp.security.CurrentUserFinder;
-import ma.inpt.rentingCarApp.services.CarService;
-import ma.inpt.rentingCarApp.services.UserService;
+import ma.emsi.rentingCarApp.entities.Car;
+import ma.emsi.rentingCarApp.security.CurrentUserFinder;
+import ma.emsi.rentingCarApp.services.CarService;
+import ma.emsi.rentingCarApp.services.UserService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

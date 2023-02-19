@@ -1,13 +1,13 @@
-package ma.inpt.rentingCarApp.controllers;
+package ma.emsi.rentingCarApp.controllers;
 
-import ma.inpt.rentingCarApp.entities.User;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import ma.inpt.rentingCarApp.services.UserService;
+import ma.emsi.rentingCarApp.entities.User;
+import ma.emsi.rentingCarApp.services.UserService;
 
 @Controller
 public class SecurityController {

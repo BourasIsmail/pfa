@@ -1,4 +1,4 @@
-package ma.inpt.rentingCarApp.controllers;
+package ma.emsi.rentingCarApp.controllers;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.http.HttpServletRequest;
