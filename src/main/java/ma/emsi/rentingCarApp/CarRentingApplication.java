@@ -63,7 +63,7 @@ public class CarRentingApplication {
             User user2 = new User("houda", pwEncoder.encode("houda"), "houda@gmail.com", "Houda", "El-Jonhy", "meknes meknes", "06- ... ", "meknes");
             user2.setRole("ROLE_EMPLOYEE");
 
-            User user3 = new User("aa", pwEncoder.encode("aa"), "aa@gmail.com", "aa", "bb", "4,rue, avenue place", "0682670018", "Fes");
+            User user3 = new User("abdo", pwEncoder.encode("abdo"), "aa@gmail.com", "abdo", "bbou", "4,rue, avenue place", "0682670018", "Fes");
             user3.setRole("ROLE_USER");
 
             User user4 = new User("admin", pwEncoder.encode("admin"), "admin@gmail.com", "Admin", "Admin", "el 1   33333333333 21 3, lot 6", "07-000000", "Rabat");
@@ -161,13 +161,13 @@ public class CarRentingApplication {
             carService.save(car35);
 
             car10.setTheUser(user3);
-            car10.setReturnDate(LocalDate.of(2021, 5, 23));
+            car10.setReturnDate(LocalDate.of(2023, 5, 23));
 
             car34.setTheUser(user5);
-            car34.setReturnDate(LocalDate.of(2021, 12, 28));
+            car34.setReturnDate(LocalDate.of(2023, 12, 28));
 
             car1.setTheUser(user3);
-            car1.setReturnDate(LocalDate.of(2021, 5, 05));
+            car1.setReturnDate(LocalDate.of(2023, 5, 05));
 
             user3.setCars(Arrays.asList(car10, car1));
 

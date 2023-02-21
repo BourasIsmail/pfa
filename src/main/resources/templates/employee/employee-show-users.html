@@ -46,7 +46,6 @@
             <th>Last Name</th>
             <th>Email</th>
             <th>Phone Number</th>
-            <th>Fine</th>
             <th style="width: 150px">Action</th>
         </tr>
 
@@ -55,8 +54,7 @@
             <td th:text="${user.key.lastName}"></td>
             <td th:text="${user.key.email}"></td>
             <td th:text="${user.key.phoneNumber}"></td>
-            <td style="color:red" th:if="${user.value > 0}" th:text="${'$ ' + user.value}"></td>
-            <td th:if="${user.value == 0}" th:text="${'$ ' + user.value}"></td>
+            
             <td>
                 <form method="GET" th:action="@{/employee/users/showuserinfo}">
                     <input class="table" type="submit" value="Show user info">
